@@ -6,7 +6,7 @@ Developed a car price prediction web application using Linear Regression, Flask,
 
 The user interface features clean dropdown menus for input selection and a responsive layout built with Bootstrap, ensuring a smooth and accessible experience across devices. Once the user submits the details, the trained model predicts the car’s price in real-time and displays the result clearly on the same page.
 
-Key highlights:
+**Key highlights**:
 
 Trained a Linear Regression model on a structured dataset of car resale listings
 
@@ -18,7 +18,7 @@ Built a Flask backend to connect user inputs to the model and return predictions
 
 Used Bootstrap to make the design responsive and mobile-friendly
 
-Tech stack:
+**Tech stack**:
 
 Python, Pandas, and Scikit-learn for data handling and model training
 
