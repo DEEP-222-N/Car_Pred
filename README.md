@@ -1,29 +1,64 @@
-# Live Demo
+# 🚗 Car Price Prediction Web App
 
-https://car-pred.onrender.com
+**🔗 Live Demo:** [Try it Here](https://car-pred.onrender.com)
 
-Developed a car price prediction web application using Linear Regression, Flask, HTML, CSS, and Bootstrap. The app allows users to estimate the resale value of a car by selecting key attributes such as company, model, manufacturing year, fuel type, and entering the number of kilometers driven.
+---
 
-The user interface features clean dropdown menus for input selection and a responsive layout built with Bootstrap, ensuring a smooth and accessible experience across devices. Once the user submits the details, the trained model predicts the car’s price in real-time and displays the result clearly on the same page.
+## 📌 Overview
 
-**Key highlights**:
+This project is a **car resale price prediction** web application built using **Linear Regression** and deployed with **Flask**. Users can input vehicle details such as **brand**, **model**, **manufacturing year**, **fuel type**, and **kilometers driven** to estimate the resale value of a car in real time.
 
-Trained a Linear Regression model on a structured dataset of car resale listings
+The frontend is crafted using **HTML, CSS, and Bootstrap**, offering a smooth and responsive user experience on both desktop and mobile.
 
-Cleaned and preprocessed the dataset using Python for optimal model performance
+---
 
-Implemented dropdown selections for categorical inputs to ensure valid user entries
+## ✨ Key Features
 
-Built a Flask backend to connect user inputs to the model and return predictions instantly
+- ✅ Real-time price prediction using a trained ML model  
+- 🚘 Dropdown inputs for valid selection of car attributes  
+- 🧼 Cleaned & preprocessed dataset for better accuracy  
+- 📉 Trained using **Linear Regression** on structured car resale data  
+- 📱 Mobile-friendly and responsive UI using **Bootstrap**  
+- 🔁 Instant results displayed on the same page
 
-Used Bootstrap to make the design responsive and mobile-friendly
+---
 
-**Tech stack**:
+## 🧠 How It Works
 
-Python, Pandas, and Scikit-learn for data handling and model training
+1. User selects input values (company, model, year, fuel type) and enters kilometers driven.
+2. Inputs are passed to a **Flask backend** that loads the trained model.
+3. Model returns the predicted car price.
+4. Result is displayed clearly on the frontend.
 
-Flask for backend integration and routing
+---
 
-HTML, CSS, and Bootstrap for frontend design and responsiveness
+## 🛠️ Tech Stack
 
-Pickle for model serialization and loading during runtime
+### 🔙 Backend & Model
+- **Python** – Data processing & model logic
+- **Pandas**, **Scikit-learn** – Preprocessing & training
+- **Linear Regression** – ML algorithm used
+- **Pickle** – Model serialization for deployment
+- **Flask** – Lightweight Python web framework
+
+### 🌐 Frontend
+- **HTML**, **CSS**, **Bootstrap** – User interface & responsiveness
+
+---
+
+## 🚀 Getting Started Locally
+
+### 1. Clone the Repository
+
+```git clone https://github.com/DEEP-222-N/Car_Pred.git```
+
+```cd mobile-recommender```
+
+### 2. Install Requirements
+
+```pip install -r requirements.txt```
+
+
+### 3. Run the Flask App
+
+```python app.py```
