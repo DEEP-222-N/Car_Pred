@@ -52,8 +52,7 @@ The frontend is crafted using **HTML, CSS, and Bootstrap**, offering a smooth an
 
 ```git clone https://github.com/DEEP-222-N/Car_Pred.git```
 
-```cd mobile-recommender```
-
+```cd Car_Pred```
 ### 2. Install Requirements
 
 ```pip install -r requirements.txt```
